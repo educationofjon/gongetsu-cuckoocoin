@@ -1,4 +1,4 @@
-# Bcoin
+# CuckooCoin
 
 [![Build Status][circleci-status-img]][circleci-status-url]
 [![Coverage Status][coverage-status-img]][coverage-status-url]
@@ -9,7 +9,7 @@ details.
 
 ---
 
-**Bcoin** is an alternative implementation of the bitcoin protocol, written in
+**Cuckoo** is an hard-fork of the bitcoin protocol, written in
 node.js.
 
 Bcoin is well tested and aware of all known consensus rules. It is currently
@@ -30,8 +30,8 @@ Try it in the browser: [https://bcoin.io/browser/](https://bcoin.io/browser/)
 ## Install
 
 ```
-$ git clone git://github.com/bcoin-org/bcoin.git
-$ cd bcoin
+$ git clone git://github.com/rojii/cuckoocoin.git
+$ cd cuckoocoin
 $ npm install
 $ ./bin/bcoin
 ```
@@ -50,9 +50,9 @@ Join us on [freenode][freenode] in the [#bcoin][irc] channel.
 
 ## Disclaimer
 
-Bcoin does not guarantee you against theft or lost funds due to bugs, mishaps,
+Cuckoocoin is does not guarantee you against theft or lost funds due to bugs, mishaps,
 or your own incompetence. You and you alone are responsible for securing your
-money.
+money. v
 
 ## Contribution and License Agreement
 
@@ -64,16 +64,8 @@ all code is your original work. `</legalese>`
 
 - Copyright (c) 2014-2015, Fedor Indutny (MIT License).
 - Copyright (c) 2014-2017, Christopher Jeffrey (MIT License).
+- Copyright (c) 2019,      Rojikku (MIT License).
 
 See LICENSE for more info.
 
-[purse]: https://purse.io
-[guide]: https://github.com/bcoin-org/bcoin/blob/master/docs/Beginner's-Guide.md
-[freenode]: https://freenode.net/
-[irc]: irc://irc.freenode.net/bcoin
-[changelog]: https://github.com/bcoin-org/bcoin/blob/master/CHANGELOG.md
 
-[coverage-status-img]: https://codecov.io/gh/bcoin-org/bcoin/badge.svg?branch=master
-[coverage-status-url]: https://codecov.io/gh/bcoin-org/bcoin?branch=master
-[circleci-status-img]: https://circleci.com/gh/bcoin-org/bcoin/tree/master.svg?style=shield
-[circleci-status-url]: https://circleci.com/gh/bcoin-org/bcoin/tree/master
